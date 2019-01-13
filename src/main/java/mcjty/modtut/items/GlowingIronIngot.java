@@ -7,11 +7,11 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class LenSimpleTexturedItem extends Item {
+public class GlowingIronIngot extends Item {
 
-    public LenSimpleTexturedItem() {
-        setRegistryName("lensimpletextureditem");
-        setUnlocalizedName(ModTut.MODID + ".lensimpletextureditem");
+    public GlowingIronIngot() {
+        setRegistryName("glowingironingot");
+        setUnlocalizedName(ModTut.MODID + ".glowingironingot");
     }
 
     @SideOnly(Side.CLIENT)

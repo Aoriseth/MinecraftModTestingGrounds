@@ -1,7 +1,7 @@
 package mcjty.modtut;
 
 import mcjty.modtut.items.FirstItem;
-import mcjty.modtut.items.LenSimpleTexturedItem;
+import mcjty.modtut.items.GlowingIronIngot;
 import mcjty.modtut.items.MultiModelItem;
 import mcjty.modtut.items.SimpleTexturedItem;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -19,14 +19,14 @@ public class ModItems {
     @GameRegistry.ObjectHolder("modtut:multimodelitem")
     public static MultiModelItem multiModelItem;
 
-    @GameRegistry.ObjectHolder("modtut:lensimpletextureditem")
-    public static LenSimpleTexturedItem lenSimpleTexturedItem;
+    @GameRegistry.ObjectHolder("modtut:glowingironingot")
+    public static GlowingIronIngot glowingIronIngot;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         simpleTexturedItem.initModel();
         multiModelItem.initModel();
-        lenSimpleTexturedItem.initModel();
+        glowingIronIngot.initModel();
     }
 
 }

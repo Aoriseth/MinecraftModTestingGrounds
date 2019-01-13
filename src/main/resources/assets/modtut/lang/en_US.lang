@@ -12,7 +12,7 @@ tile.modtut.testcontainerblock.name=Test Container Block
 
 item.modtut.firstitem.name=First Item
 item.modtut.simpletextureditem.name=Simple Textured Item
-item.modtut.lensimpletextureditem.name=Glowing Iron Ingot
+item.modtut.glowingironingot.name=Glowing Iron Ingot
 item.modtut.multimodelitem.name=Multi Model Item
 
 message.modtut.counter=Counter:
