@@ -13,6 +13,7 @@ import mcjty.modtut.blocks.testcontainer.TestContainerBlock;
 import mcjty.modtut.blocks.testcontainer.TestContainerTileEntity;
 import mcjty.modtut.compat.MainCompatHandler;
 import mcjty.modtut.items.FirstItem;
+import mcjty.modtut.items.LenSimpleTexturedItem;
 import mcjty.modtut.items.MultiModelItem;
 import mcjty.modtut.items.SimpleTexturedItem;
 import mcjty.modtut.network.PacketHandler;
@@ -89,6 +90,7 @@ public class CommonProxy {
         event.getRegistry().register(new FirstItem());
         event.getRegistry().register(new SimpleTexturedItem());
         event.getRegistry().register(new MultiModelItem());
+        event.getRegistry().register(new LenSimpleTexturedItem());
 
         event.getRegistry().register(new ItemBlock(ModBlocks.stateTexturedBlock).setRegistryName(ModBlocks.stateTexturedBlock.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.blinkingBlock).setRegistryName(ModBlocks.blinkingBlock.getRegistryName()));
