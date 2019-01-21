@@ -1,9 +1,6 @@
 package mcjty.modtut;
 
-import mcjty.modtut.items.FirstItem;
-import mcjty.modtut.items.GlowingIronIngot;
-import mcjty.modtut.items.MultiModelItem;
-import mcjty.modtut.items.SimpleTexturedItem;
+import mcjty.modtut.items.*;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -22,11 +19,15 @@ public class ModItems {
     @GameRegistry.ObjectHolder("modtut:glowingironingot")
     public static GlowingIronIngot glowingIronIngot;
 
+    @GameRegistry.ObjectHolder("modtut:mushitem")
+    public static MushItem mushItem;
+
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         simpleTexturedItem.initModel();
         multiModelItem.initModel();
         glowingIronIngot.initModel();
+        mushItem.initModel();
     }
 
 }

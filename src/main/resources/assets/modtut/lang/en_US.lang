@@ -14,6 +14,7 @@ item.modtut.firstitem.name=First Item
 item.modtut.simpletextureditem.name=Simple Textured Item
 item.modtut.glowingironingot.name=Glowing Iron Ingot
 item.modtut.multimodelitem.name=Multi Model Item
+item.modtut.mushitem.name=Mush
 
 message.modtut.counter=Counter:
 message.modtut.counter_par=Counter: %d
