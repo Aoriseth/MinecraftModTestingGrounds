@@ -89,6 +89,7 @@ public class CommonProxy {
         event.getRegistry().register(new MultiModelItem());
         event.getRegistry().register(new GlowingIronIngot());
         event.getRegistry().register(new MushItem());
+        event.getRegistry().register(new GlueItem());
 
         event.getRegistry().register(new ItemBlock(ModBlocks.stateTexturedBlock).setRegistryName(ModBlocks.stateTexturedBlock.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.blinkingBlock).setRegistryName(ModBlocks.blinkingBlock.getRegistryName()));

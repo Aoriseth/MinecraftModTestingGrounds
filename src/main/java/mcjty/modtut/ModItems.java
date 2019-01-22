@@ -22,12 +22,16 @@ public class ModItems {
     @GameRegistry.ObjectHolder("modtut:mushitem")
     public static MushItem mushItem;
 
+    @GameRegistry.ObjectHolder("modtut:glueitem")
+    public static GlueItem glueItem;
+
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         simpleTexturedItem.initModel();
         multiModelItem.initModel();
         glowingIronIngot.initModel();
         mushItem.initModel();
+        glueItem.initModel();
     }
 
 }
