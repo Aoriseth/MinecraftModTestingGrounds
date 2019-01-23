@@ -4,6 +4,7 @@ import mcjty.modtut.items.*;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class ModItems {
 
@@ -32,6 +33,12 @@ public class ModItems {
         glowingIronIngot.initModel();
         mushItem.initModel();
         glueItem.initModel();
+
+        registerOreDictionary();
+    }
+
+    public static void registerOreDictionary(){
+        OreDictionary.registerOre("slimeball",glueItem);
     }
 
 }
