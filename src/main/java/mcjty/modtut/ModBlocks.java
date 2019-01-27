@@ -18,6 +18,9 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("modtut:simpletexturedblock")
     public static SimpleTexturedBlock simpleTexturedBlock;
 
+    @GameRegistry.ObjectHolder("modtut:dregblock")
+    public static DregBlock dregBlock;
+
     @GameRegistry.ObjectHolder("modtut:multitexturedblock")
     public static MultiTexturedBlock multiTexturedBlock;
 
@@ -53,6 +56,7 @@ public class ModBlocks {
         blinkingBlock.initModel();
         pedestalBlock.initModel();
         testContainerBlock.initModel();
+        dregBlock.initModel();
     }
 
     @SideOnly(Side.CLIENT)

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+    [
+        "xx",
+        "xx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "modtut:mushitem"
+        }
+    },
+  "result":
+  {
+    "item": "modtut:dregblock",
+    "count": 8
+  }
+}
